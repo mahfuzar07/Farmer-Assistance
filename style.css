@@ -1,0 +1,186 @@
+.header{
+	margin-top:20px;
+	margin-bottom:20px;
+	margin-left:25px;
+
+}
+
+.logo{
+	margin-top:22px;
+}
+
+.butt{
+	width:80px;
+	padding:5px;
+	margin-right:5px;
+	background-color:#006400; ;
+	color:#fff;
+	margin-top:50px;
+	border:1px solid #8BC53E;
+	color:#000;
+}
+
+.buttn{
+	width:80px;
+	padding:5px;
+	margin-right:5px;
+	background-color:#934a00;
+	color:#fff;
+	margin-top:50px;
+	border:1px solid #8BC53E;
+	color:#000;
+}
+
+
+
+
+.butt:hover{
+	background-color:#8BC53E;
+	color:#fff;
+	transition:0.3s;
+}
+
+.slider{
+	background-color:#8BC53E;
+	padding:100px;
+	text-align:center;
+	color:#fff;
+}
+
+.para{
+	text-align:center;
+	margin-top:-18px
+}
+
+.nav li a{
+	color:#006400;
+	background-color: #006400;
+	padding:15.5px;
+}
+
+.active{
+	color:#006400;
+	font-weight:bold;
+	text-decoration:underline;
+}
+
+.but{
+	width:140px;
+	padding:10px;
+	border:1px solid #218838;
+	transition:.3s;
+	font-weight:bold;
+	transition:0.7s;
+}
+
+.but:hover{
+	background-color:#8BC53E;
+	color:#fff;
+	transition:0.7s;
+}
+
+
+.pull-right{
+	margin-top:-33.8px;
+}
+.action{
+	margin-right:20px;
+	position:relative;
+
+}
+
+.menu{
+	margin-bottom:15px;
+}
+
+.thumb{
+	margin-left:8%
+}
+
+.sear{
+	padding:6px;
+	width:35px
+}
+
+.for{
+	margin-left:2.2px;
+	position:absolute;
+	margin-top:1px;
+}
+
+.top{
+	margin-top:17px;
+	margin-left:20px;
+	padding: 10px;
+}
+
+.drop{
+	padding:5px;
+	background-color:#8BC53E;
+	color:#fff;
+	width:35px;
+
+}
+
+input[type=text]{
+	padding-left:55px
+}
+
+.main{
+	position:relative;
+	width:205px;
+	margin-right:15px;
+	margin-bottom:15px;
+}
+
+.image{
+	display:block;
+	width:205px;
+	height:205px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 15px;
+  right: 0;
+  height:205px;
+  width: 205px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #000;
+}
+
+.main:hover .overlay {
+  opacity:0.4;
+}
+
+.free{
+	position:absolute;
+	top:12px;
+	left:44px;
+	font-size:17px;
+	width:60px;
+	background-color:green;
+	color:#fff;
+	text-align:center;
+	border-radius:2px;
+	padding:1.5px
+}
+
+.title{
+	bottom:5px;
+	position:absolute;
+	text-align:center;
+	width:205px;
+	font-size:17px;
+	background-color:#000;
+	color:#fff
+}
+
+.bottom{
+	margin-bottom:25px;
+}
+
+/*//other*/

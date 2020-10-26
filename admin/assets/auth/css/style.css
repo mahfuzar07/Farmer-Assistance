@@ -1,0 +1,535 @@
+/*sadia*/
+.sidenav .nav li a{
+   color: #fff;
+}
+.sidenav .nav li a:hover{
+  background-color: #000;
+  color: #fff;
+  border-left: 3px solid #8BC53F;
+}
+.example{
+  border: 1px solid grey;
+ 
+}
+form.example input[type=text] {
+    padding: 8px;
+    font-size: 17px;
+    border: none;
+    float: left;
+    width: 80%;
+    background: #fff;
+}
+
+form.example button {
+    float: left;
+    width: 20%;
+    padding: 8px;
+    background: #fff;
+    color: grey;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+}
+form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.dropdown-menu {
+    position: absolute;
+    will-change: transform;
+    top: 0px;
+    left: -86px;
+    transform: translate3d(-6px, 49px, 0px);
+}
+.searchnav li a:hover{
+  background-color: #fff!important;
+  color: #8BC53F;
+}
+.bg{
+  background-color: #F1F1F1;
+}
+.bg .nav li a{
+  color: #000;
+}
+.bg .nav .active{
+  color: #00ADEE;
+}
+.user{
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 20px;
+}
+.admin{
+  background-color: #00ADEE;
+  color: #fff;
+  height: 50px;
+
+}
+.admin p{
+  font-size: 16px;
+  padding-top: 10px;
+  padding-left: 20px;
+}
+.bton{
+  background-color: #00ADEE;
+  width: 100%;
+  padding: 13px;
+   border-radius: .0rem;
+     border-radius: .0rem!important;
+}
+.bton a{
+  color: #fff;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    height: calc(2.25rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .0rem!important;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+
+}
+.from{
+  margin-top: 50px;
+  height: 400px;
+}
+.navigation2{
+  height: 60px;
+  background-color: #F5F5F5;
+}
+.navigation2 form{
+  margin-top: 10px;
+}
+.navigation2 img{
+  margin-top: 10px;
+}
+.frm{
+    border:1px solid  #000;
+    height: 40px;
+    
+}
+.frm input[type=text] {
+    font-size: 13px;
+    float: left;
+    width: 358px;
+    background: #fff;
+    color: #000;
+    border: none;
+    height: 100%;
+    padding-left: 10px;
+}
+.frm input:focus, .frm button:focus{
+    outline: none;
+}
+.angle{
+    background-color: #8CC63F;
+    border: none;
+    width: 40px;
+    height: 38px;
+    border-right:1px solid  #000;
+     cursor: pointer;
+}
+.angle i{
+    color: #fff;
+}
+.search{
+    width: 30px;
+    background: #fff;
+    color: #000;
+    border: none;
+    height: 100%;
+    cursor: pointer;
+}
+.Signup{
+    border:1px solid #8CC63F;
+    padding: 0px 30px 5px 30px;
+    background: #fff;
+    margin-right: 30px;
+     margin-left: 50px;
+    font-size: 13px;
+    transition: 1s;
+    border-radius: 3px;
+    height: 40px;
+    cursor: pointer;
+}
+.Login{
+    border:1px solid #8CC63F;
+    height: 40px;
+    background: #fff;
+    font-size: 13px;
+    transition: 1s;
+    border-radius: 3px;
+    padding: 0px 25px 5px 25px;
+    background-color: #8CC63F;
+    color: #fff;
+    cursor: pointer;
+}
+.Signup:hover{
+    background-color: #8CC63F;
+    color: #fff;
+}
+.Login:hover{
+    background-color: #8CC63F;
+     color: #fff;
+}
+button:focus {
+     outline:none;
+ }
+.Yellow{
+  margin-top: 60px;
+  background-color: #171616;
+  color: #fff;
+  height: 60px;
+}
+.Yellow p{
+  font-size: 22px;
+  padding-top: 10px;
+}
+.comment .green{
+  width: 100%;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.comment #Message{
+  padding: 5px 10px;
+  border: 1px solid grey;
+  height:100px; width: 100%;
+  background: #F8F8F8;
+}
+.comment .control{
+  border-radius: 1px;
+  background: #F8F8F8;
+  border: 1px solid grey;
+}
+ .comment .form-control:focus, textarea:focus {
+  border-color: rgb(140, 168, 63,0.8);
+  box-shadow: 0 0 4px rgb(140, 168, 63,0.8);
+  outline: none;
+}
+.comment p{
+  line-height: 10px;
+}
+.comment .p{
+  font-size: 16px;
+  width: 100%;
+  margin-top: 18px;
+}
+.download .black{
+  width: 100%;
+  height: 300px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.download .dw_icon{
+  color: #fff;
+  font-size: 25px;
+  border-right: 1px solid #fff;
+  padding-top: 12px;
+  cursor: pointer;
+}
+.download .dw_text h5{
+  color: #fff;
+  font-size: 20px;
+  padding-top: 8px;
+}
+.download .dw_text p{
+  color: #fff;
+  font-size: 16px;
+  line-height: 10px;
+}
+.download .like{
+  color: #8CC63F;
+  font-size: 20px;
+  background-color: #F5F5F5;
+  width: 100%;
+  height: 55px;
+  border:1px solid lightgrey;
+  border-top: none;
+  border-left: none;
+  padding-top: 12px;
+}
+.download .box{
+  border:1px solid #000;
+  border-radius: 0 15px 0 15px;
+  width: 100%;
+  height: 440px;
+  background-color: #F5F5F5;
+}
+.download .box img{
+ margin-top: 60px;
+}
+.download .box p{
+  line-height: 8px;
+}
+.count{
+  border-bottom:1px solid #000;
+   border-top:1px solid #000; 
+}
+.bor{
+  border-right: 1px solid #000;
+  cursor: pointer;
+}
+.More{
+  font-weight: bold; width: 100%;
+  padding: 15px 15px 5px 15px;
+}
+.Follow{
+  background: #000000;
+  color: #fff;
+  width: 100%;
+  height: 47px;
+  padding-top: 18px;
+  font-size: 18px;
+  border-radius: 0 0px 0 13px;
+}
+.tip {
+    position: relative;
+    cursor: pointer;
+}
+
+.tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 110%;
+    left: 50%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+.tip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+.items h3{
+  color: #8CC63F;
+  font-size: 33px;
+}
+.items .card{
+  border-radius: 0 10px 0 10px;
+  border:none;
+  width: 20%;
+  padding: 15px;
+}
+.items .card img{
+  border-radius: 0 10px 0 10px;
+  width: 100%;
+ 
+}
+.items .top{
+  margin-top: 32px;
+}
+.items .a{
+  border:1px dotted lightgrey;
+  height: 30px;
+  width: 30px;
+  text-align: center;
+  color:#4C4B4B; 
+  position: absolute;
+  top: 30px;
+  left:30px;
+}
+a:hover{
+  text-decoration: none;
+}
+.add{
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 230px;
+  position: relative; 
+}
+.add h3{
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.SeeMore{
+   border-radius: 0 10px 0 10px;
+   background: #8CC63F;
+   padding: 13px 60px;
+   font-size: 18px;
+   color: #fff;
+
+}
+
+/*######------dashbord_Start------#######*/
+
+.row.content {height: 1000px}
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+     background:#1A242E;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+    /*content*/
+  
+  .card-item{
+    color: #fff;
+    margin-left: 25px;
+    font-size: 15px;
+    padding: 10px;
+    font-weight: bolder;
+  }
+
+
+  .icon{
+    color: #A4D268;
+    font-size: 25px;
+  }
+
+  i.iconp{
+    color: #A4D268;
+    font-size: 30px;
+    padding-top: 10px;
+  }
+
+  .card-body h4{
+    border:1px solid #000;
+    border-radius: 25px;
+    padding:5px;
+
+  }
+
+  a.proj{
+    font-size: 17px;
+    font-weight: bold;
+  }
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: #555;
+      color: white;
+      padding: 15px;
+    }
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height: auto;} 
+    }
+
+    .sidenav_item{
+      padding:10px;
+
+    }
+    
+      .list-group-item {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    margin-bottom: -1px;
+    /* background-color: #fff; */
+    /* border: 1px solid #ddd; */
+}
+
+    }
+
+
+/*######------dashbord_End------#######*/
+
+
+
+
+/*######------dashbord_Start------#######*/
+
+.row.content {height: 1000px}
+    
+    /* Set gray background color and 100% height */
+    
+    /*content*/
+  
+  .card-item{
+    color: #fff;
+    margin-left: 25px;
+    font-size: 15px;
+    padding: 10px;
+    font-weight: bolder;
+  }
+
+
+  .icon{
+    color: #A4D268;
+    font-size: 25px;
+  }
+
+  i.iconp{
+    color: #A4D268;
+    font-size: 30px;
+    padding-top: 10px;
+  }
+
+  .card-body h4{
+    border:1px solid #000;
+    border-radius: 25px;
+    padding:5px;
+
+  }
+
+  a.proj{
+    font-size: 17px;
+    font-weight: bold;
+  }
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: #555;
+      color: white;
+      padding: 15px;
+    }
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height: auto;} 
+    }
+
+    .sidenav_item{
+      padding:10px;
+
+    }
+    
+      .list-group-item {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    margin-bottom: -1px;
+    /* background-color: #fff; */
+    /* border: 1px solid #ddd; */
+}
+
+    }
+
+
+/*######------dashbord_End------#######*/
+
+
+
